@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(30, 29, 39);
+    height: 50px;
+}
+
+.header label {
+    color: white;
+}
+
+.header input{
+    height: 40px;
+    width: 300px;
+}
+
+.header button{
+    color: white;
+    outline: none;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: rgb(33, 172, 130);
+}
+
+.header button:hover{
+    cursor: pointer;
+    background-color: rgb(36, 187, 142);
+    border: 1px solid black;
+
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-letra h1{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.conteudo-letra h2{
+    margin-bottom: 3px;
+}
+
+.not-found{
+    color: pink;
+}
+
+.artistas-recomendados{
+    display: block;
+}
+
+.container-artista{
+    display: inline-block;
+    padding: 10px;
+}
